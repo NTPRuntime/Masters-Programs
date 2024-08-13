@@ -1,0 +1,57 @@
+Describe an algorithm for baking cookies. Assume that you have many hungry friends, so you'll want to produce several batches of cookies! Include a brief flowchart for your algorithm as well. 
+In response to your peers, provide at least one adjustment to make to their provided algorithm or flowchart.
+
+1. Acquire total number of hungry friends
+2. Ask each friend how many cookies and of which variety (Chocolate Chip, Regular, M&M) they would want and gather an overall total of how many cookies to bake
+3. Inquire about any dietary restrictions
+4a. Calculate how many cookies will fit on a standard baking tray
+4b. Calculate how many trays will fit into a standard oven
+5. Collect ingredients:
+    5a. Flour
+    5b. Eggs
+    5c. Sugar
+    5d. Chocolate Chips
+    5e. M&Ms
+    5f. butter
+    5g. baking soda
+    5h. Milk
+    5i. brown Sugar
+    5j. Vanilla Extract
+6. Pre-heat oven to 425F
+7. Gather mixing bowls and make a batch per option (Chocolate Chip, M&M, Regular, Dietary Restriction)
+8. Mix each bowl until batter is ready
+9. Use the following pseudocode to help manage:
+    total number of hungry friends = 6
+    2 want Chocolate Chip, 1 wants regular, 2 want M&M and 1 is Gluten Intollerant
+    # each person wants 4 cookies so we will have to bake 8 Chocolate Chip, 4 Regular, 8 M&M, and 4 Gluten Free
+    # you have 2 standard baking trays that will fit in your oven that can hold 6 cookies each
+
+    cookie_counter_list = {Chocolate_Chip:8, M_and_M:8, Regular:4, Gluten_Free:4}
+    baking_tray_counts = 0
+    while not finished
+        for each cookie_type in cookie_counter_list
+            while baking_tray_counts < 12 or not all counters == 0
+                if cookie_counter_list[cookie_type] > 0
+                    # pour batter on tray to make 1 cookie of cookie_type
+                    cookie_counter_list[cookie_type] -= 1
+                    baking_tray_counts += 1
+                if cookie_counter_list[cookie_type] == 0
+                    continue to next cookie_type
+            # bake full trays in oven for 10-14 minutes
+            timer = 12 * 60
+            while timer > 0:
+                timer -= 1
+                sleep(1) # wait for one second
+            take both trays out of the oven
+            #empty both trays
+            tray_counts = 0
+        if any counter in cookie_counter_list != 0
+            continue
+        else
+            finished
+    serve to guests
+
+
+
+        
+    
