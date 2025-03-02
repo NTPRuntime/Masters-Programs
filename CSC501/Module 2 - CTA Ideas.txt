@@ -1,0 +1,10 @@
+Select new laptop (windows/linux becuase apple sucks) that can handle a slew of activities that anyone would have to complete on a daily, weekly, monthly basis
+Select new router and switch that can handle the necessary traffic requirements
+Site IT will be the boots-on-the-ground people that will handle the transition and configuration of router and switches
+Site IT will handle issues relating to laptop upgrades
+Keep people informed from site to site with emails updating them on when networks will be unreachable and for how long
+Keep in touch with local IT people to understand what progress is being made
+Risks - network is down for longer than necessary due to unforseen issues with routers/switches
+	-Laptops are going to need software installed per person and sometimes software installation isnt perfect
+	-Loss of data due to someone not backing up data before transitioning to the new laptop
+	-Backlash from employees due to them not agreeing with the need for updates which can create issues for them
